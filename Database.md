@@ -107,3 +107,17 @@ FOREIGN KEY (Acct_No) REFERENCES Bank_Acc(Acct_No)
 inner join Loan ON UserDetails.User_id = Loan.User_id
 inner join Bank_Acc ON Loan.Acct_No = Bank_Acc.Acct_No
 inner join PaymentEmis ON Bank_Acc.Acct_No = PaymentEmis.Acct_No</p>
+
+<h3>Test:</h3>
+
+<p>insert into UserDetails values('merry','joseph',9481248849,'G@gmail.com','1000-01-01' ,'1000-01-01',10 ,'0987654567878','xyz123nj');</p>
+
+<p>insert into Bank_Acc values(98988776545,'Narmadha','NCF12300909','Bangalore',2);</p>
+<p>insert into Loan values(2000,'Pending',0,2,98988776545);</p>
+<p>insert into PaymentEmis values('2000','20','20','20',98988776545);</p>
+
+<h3>Join Statment For all in one </h3>
+<p>select * from UserDetails 
+inner join Loan ON UserDetails.User_id = Loan.User_id
+inner join Bank_Acc ON Loan.Acct_No = Bank_Acc.Acct_No
+inner join PaymentEmis ON Bank_Acc.Acct_No = PaymentEmis.Acct_No</p>
