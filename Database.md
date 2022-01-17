@@ -121,3 +121,12 @@ inner join PaymentEmis ON Bank_Acc.Acct_No = PaymentEmis.Acct_No</p>
 inner join Loan ON UserDetails.User_id = Loan.User_id
 inner join Bank_Acc ON Loan.Acct_No = Bank_Acc.Acct_No
 inner join PaymentEmis ON Bank_Acc.Acct_No = PaymentEmis.Acct_No</p>
+
+<h2>OutPut</h2>
+
+![image](https://user-images.githubusercontent.com/97591175/149730452-987ce40d-cff6-4844-ba81-3aa214b727c0.png)
+
+
+![image](https://user-images.githubusercontent.com/97591175/149730520-250e4980-dceb-48b5-9b48-baf6a6ff75e3.png)
+
+
